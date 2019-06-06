@@ -12,7 +12,11 @@ This repository includes work I have done to help build statistical predictors o
 
 
 
-* [Visualization of eye-movement during reading tests](/Visualize Fixations (Display).ipynb)
+* [Visualization of eye-movement during reading tests](/Visualize Fixations \(Display\).ipynb)
+
+  
+
+  
 
 
 
