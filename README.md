@@ -13,6 +13,7 @@ This repository includes work I have done to help build statistical predictors o
 
 
 * [Visualization of eye-movement during reading tests](</Visualize Fixations \(Display\).ipynb>)
+* Generation of [features from eye fixation data](</FixationFeatures.py>)
 
   
 
