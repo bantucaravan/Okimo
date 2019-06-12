@@ -2,6 +2,16 @@ import numpy as np
 import pandas as pd
 from pandas.io.json import json_normalize
 import json
+if pd.__version__ <  '0.24.0':
+    raise ImportError("This script requires pandas 0.24.0 or greater")
+
+# The script uses .shift() with fill_value= arg which as changed in version
+# 0.24.0. the fill_value= arg is necessary to sets first fixation to 
+# as progressive by default. Consider exploring alternate appraches with
+#  the same effect to avoid dependency issues.
+# Consider: leaving the NaN from shift and using .fillna() on the resulting df
+# docs: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shift.html
+
 
 
 def main(data):
